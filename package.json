@@ -1,0 +1,20 @@
+{
+  "name": "esm-self-require",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "James DiGioia <jamesorodig@gmail.com> (http://jamesdigioia.com)",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.12.2",
+    "mocha": "^4.0.1"
+  },
+  "@std/esm": {
+    "esm": "js",
+    "cjs": true
+  }
+}
