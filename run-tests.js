@@ -1,7 +1,5 @@
-import Mocha from 'mocha';
+import importer from 'importer';
 
 export default () => {
-    const mocha = new Mocha();
-    mocha.addFile('./tests.js');
-    mocha.run();
+    importer(__dirname + '/tests.js');
 }

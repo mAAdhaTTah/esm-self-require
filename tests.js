@@ -1,7 +1,3 @@
-import { expect } from 'chai';
+import importer from 'importer';
 
-describe('myTest', () => {
-    it('should be one', () => {
-        expect(1).to.equal(1);
-    });
-});
+console.log(typeof importer);
